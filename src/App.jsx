@@ -90,13 +90,13 @@ function App() {
                         </p>
                         </li>
                         {(character.origin.name !== "unknown" || character.origin.url) && (
-                          <li><p>Origen:
+                          <li><p>Origin:
                             <button type="button" class="btn btn-primary" onClick={() => handleOrigin(character.origin)}>Ver</button>
                           </p>
                           </li>
                         )}
 
-                        <li><p>Localización:
+                        <li><p>Location:
                           <button type="button" class="btn btn-primary" onClick={() => handleLocation(character.location)}>Ver</button>
                         </p>
                         </li>
